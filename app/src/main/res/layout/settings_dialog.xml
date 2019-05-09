@@ -2,103 +2,87 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".LoginFragment">
+    android:layout_width="380sp"
+    android:layout_height="500sp"
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/login_title1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/login_title1"
-        android:textSize="20sp"
-        android:layout_marginTop="30sp"
-        android:layout_gravity="center"
-        android:visibility="visible" />
-
-    <TextView
-        android:id="@+id/login_title2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/login_title2"
-        android:textSize="35sp"
-        android:layout_marginTop="10sp"
-        android:layout_gravity="center"
-        android:visibility="visible" />
-
-    <RadioGroup
-        android:id="@+id/login_sections"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25sp"
-        android:layout_gravity="center"
-        android:textSize="20sp"
-        >
-
-        <RadioButton
-            android:id="@+id/login_section1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:onClick="onRadioButtonClicked"
-            android:text="RadioButton" />
-
-        <RadioButton
-            android:id="@+id/login_section2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:onClick="onRadioButtonClicked"
-            android:text="RadioButton" />
-
-        <RadioButton
-            android:id="@+id/login_section3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:onClick="onRadioButtonClicked"
-            android:text="RadioButton" />
-
-    </RadioGroup>
-
-    <TextView
-        android:id="@+id/login_pin"
+        android:id="@+id/settings_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="30sp"
-        android:text="@string/login_pin"
-        android:textSize="35sp" />
+        android:text="@string/settings_title"
+        android:padding="10sp"
+        android:textSize="32sp"/>
+
 
     <EditText
-        android:id="@+id/login_pin_code"
+        android:id="@+id/settings_ftp_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15sp"
+        android:width="300sp"
+        android:ems="10"
+        android:hint="@string/settings_ftp_address"
+        android:autofillHints="true"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/settings_username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="15sp"
         android:width="150sp"
         android:ems="10"
+        android:hint="@string/settings_username"
+        android:autofillHints="true"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/settings_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15sp"
+        android:width="150sp"
+        android:ems="10"
+        android:hint="@string/settings_password"
         android:autofillHints="true"
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/login_next_button"
+        android:id="@+id/settings_ok_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20sp"
         android:width="150sp"
-        android:text="@string/login_next" />
+        android:text="@string/settings_ok" />
 
     <Button
-        android:id="@+id/login_settings_button"
+        android:id="@+id/settings_cancel_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20sp"
         android:width="150sp"
         android:onClick="settingsButtonClick"
-        android:text="@string/login_settings" />
+        android:text="@string/settings_cancel" />
+
+    <TextView
+        android:id="@+id/settings_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/info"
+        android:layout_margin="32sp"
+        android:padding="4sp"
+        android:color="@color/green"
+        android:background="@drawable/image_border"
+        android:textSize="16sp"/>
+
 
 </LinearLayout>

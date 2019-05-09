@@ -1,3 +1,29 @@
 <resources>
-    <string name="app_name">UploadToFTP</string>
+    <string name="app_name">Upload To FTP</string>
+
+    <string name="upload_button">Upload Files</string>
+    <string name="refresh_button">Refresh</string>
+    <string name="language_hungarian">Change language to Hungarian</string>
+    <string name="language_english">Váltás angol nyelvre</string>
+
+    <string name="settings_title">Upload settings</string>
+    <string name="settings_ftp_address">FTP Address</string>
+    <string name="settings_username">Userame</string>
+    <string name="settings_password">Password</string>
+
+    <string name="settings_ok">OK</string>
+    <string name="settings_cancel">Cancel</string>
+
+    <string name="error">Error</string>
+    <string name="info">Info</string>
+
+    <string name="error_empty_ftp_address">FTP address is empty!</string>
+    <string name="error_empty_username">Username is empty!</string>
+    <string name="error_empty_password">Password is empty!</string>
+    <string name="error_upload">Upload error!</string>
+    <string name="error_upload_file">File upload error: </string>
+    <string name="error_connect_failed">Connection failed!</string>
+
+    <string name="success_upload">Successful upload</string>
+    <string name="file_upload">File upload: </string>
 </resources>
