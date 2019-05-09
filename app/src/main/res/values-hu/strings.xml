@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MHSSZ VR Versenybírói Alkalmazás</string>
+    <!-- Belépési változók -->
+
+    <string name="login_title1">MHSSZ VR</string>
+    <string name="login_title2">Versenybírói Alkalmazás</string>
+    <string name="login_pin">PIN</string>
+    <string name="login_next">tovább</string>
+    <string name="login_settings">beállítások</string>
+    <string name="login_wrong_pin">Többször rossz PIN kódot adott meg, ezért a rendszer leáll!</string>
+    <string name="login_pin_error">Hibás PIN kód!</string>
+    <string name="login_title">Belépés a rendszerbe</string>
+
+    <!-- Útválasztás változók -->
+    <string name="router_title">Útválasztás</string>
+    <string name="router_header_text1">Első</string>
+    <string name="router_header_text2">Második</string>
+    <string name="router_header_text3">Harmadik</string>
+    <string name="router_delete">törlés</string>
+    <string name="router_back">vissza</string>
+    <string name="router_refresh">frissítés</string>
+    <string name="router_next">tovább</string>
+    <string name="router_no">nincs</string>
+    <string name="router_no_selected_route">Nincs kiválasztott útvonal!</string>
+    <string name="router_uploading_climbing_data">mászási adatok feltöltése</string>
+
+    <!-- Main variables -->
+    <string name="main_add">hozzáad</string>
+    <string name="main_up">fel</string>
+    <string name="main_down">le</string>
+    <string name="main_take_out">kivesz</string>
+    <string name="main_start">indul</string>
+    <string name="main_ready">kész</string>
+    <string name="main_cancel">mégse</string>
+    <string name="main_close">lezárás</string>
+    <string name="main_network_error">hálózati hiba</string>
+    <string name="main_duplicate_participaint">Ezzel a rajtszámmal már szerepel versenyző ezen a  listán!</string>
+    <string name="main_title">főoldal</string>
+    <string name="main_tries">próbák</string>
+
+    <!-- Add variables -->
+    <string name="add_start_number">rajtszám</string>
+    <string name="add_add">hozzáad</string>
+    <string name="add_cancel">mégse</string>
+    <string name="add_test">próba</string>
+
+    <!-- Save variables -->
+    <string name="save_boulder_top">top</string>
+    <string name="save_boulder_zone">zóna</string>
+    <string name="save_boulder_test">próba</string>
+    <string name="save_boulder_back">vissza</string>
+
+    <!-- Confirm variables -->
+    <string name="confirm_ok">rendben</string>
+    <string name="confirm_back">vissza</string>
+
+    <!-- Settings variables -->
+    <string name="settings_title">beállítások</string>
+    <string name="settings_ip_url_address">ip (url) cím</string>
+    <string name="settings_ok">módosítás mentése</string>
+    <string name="settings_cancel">vissza</string>s
+    <string name="settings_language_hu">magyar</string>
+    <string name="settings_language_en">angol</string>
+    <string name="settings_language">nyelv kiválasztása</string>
+
+    <!-- Save lead variables -->
+    <string name="save_lead_hold">fogás</string>
+    <string name="save_lead_reachup">felnyúlás</string>
+    <string name="save_lead_ok">rendben</string>
+    <string name="save_lead_back">vissza</string>
+</resources>
